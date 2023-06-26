@@ -1,0 +1,35 @@
+.allContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buscador {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    background-color:hsl(55, 100%, 50%);
+    width: 100%;
+    height: 7vh;
+}
+
+.buscador input {
+    height: 30px;
+    border: none;
+    width: 600px;
+    padding-left: 10px;
+}
+
+.buscador img {
+    width: 120px;
+    height: 60px;
+}
+
+.buscador svg {
+    background-color:#F1F1F1; 
+    height:30px;
+}
+.buscador svg:hover {
+    background-color: #bdbdbd ;
+    cursor: pointer;
+}
